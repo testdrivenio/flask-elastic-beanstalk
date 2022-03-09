@@ -4,6 +4,7 @@ from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = os.environ.get('FLASK_SECRET_KEY', '5b3cd5b80eb8b217c20fb37074ff4a33')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 if 'RDS_DB_NAME' in os.environ:
