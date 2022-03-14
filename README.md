@@ -1,4 +1,4 @@
-# Deploying Flask to AWS Elastic Beanstalk
+# Deploying a Flask Application to Elastic Beanstalk
 
 Check out the [tutorial](https://testdriven.io/blog/flask-elastic-beanstalk/).
 
